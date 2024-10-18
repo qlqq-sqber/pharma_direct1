@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    direction: rtl;
+    font-family: Droid Arabic Kufi, serif;
+}
+
+
+:root{
+    --grey:#f9f9f9;
+    --green:#00b7a6;
+    --light-blue:#f7fafd;
+    --border-color: #eef5fc;
+    --button:#273142;
+    --navbar:#273142;
+
+
+}
+
+/* start logo */
+#logo1{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar-brand{
+   
+font-family: cursive;
+font-size: 25px;
+}
+
+.navbar{
+    background-color: #273142;
+}
+.divider{
+    border-left: 1px solid #6E7580;
+    padding: 11px 0 0;
+    margin-top: -11px;
+    height: 62px;
+    width: 0;
+}
+ .navbar i{
+    color: blue;
+}
+
+/* end logo */
+
+/* start alert */
+.alert{
+    height: 50px;
+    background-color: var(--green);
+    margin-bottom: 0rem;
+}
+/* End alert */
+
+/* Start Carousel */
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption h1{
+    color: #0a655c;
+}
+/* End Carousel */
+
+/* Start SearchSection */
+.searchsection{
+    top: 480px;
+}
+
+/* .searchsection h5{
+
+    margin-bottom:10px;
+} */
+
+.icon{
+    background-color:#0a655c;
+ width: 40px;
+border-radius: 0%;
+
+}
+
+#search{
+    font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.icon .icon{
+    color: white;
+}
+
+/* .input-group-text i{
+ color:var(--navbar)
+
+} */
+
+
+.sear {
+    box-shadow: 7px 6px 9px 0px #273142a3;
+}
+
+.btn{
+    background-color: var(--green);
+    color: white;
+}
+
+.btn.submit{
+    background-color: #273142;
+    border-radius: 0%;
+}
+.btn.submit:hover{
+    background-color: var(--green);
+  color: black;
+}
+
+.sec{
+    margin-top: -20px;
+} 
+@media(min-width:557px){
+    .dropdown:hover > .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    }
+}
+/* End SearchSection */
+/* 
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid #441d1d00;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: red;
+    font-size: 27px;
+*/
+

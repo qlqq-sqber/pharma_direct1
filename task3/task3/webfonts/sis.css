@@ -1,0 +1,10 @@
+.a{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.a .p1{
+   
+    font-size: 14px;
+    
+}

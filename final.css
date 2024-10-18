@@ -1,0 +1,123 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  
+}
+
+:root{
+    --grey:#f9f9f9;
+    --green:#00b7a6;
+    --light-blue:#f7fafd;
+    --border-color: #eef5fc;
+    --button:#273142;
+    --navbar:#273142;
+
+
+}
+
+.products{
+    margin-top: 15px;
+    border-top: 2px solid #eef5fc;
+padding-top: 20px;
+   
+}
+.products .text{
+ max-width: 1000px;
+}
+
+.product-card img{
+background-color: #f2f2f2;
+}
+
+.imgs{
+    max-width: 1000px !important;
+    text-align: end;
+
+}
+
+
+.product-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.third .product-card i{
+    color:var(--green)
+}
+
+.product-card {
+    text-align: right;
+}
+
+/* start pharmacy */
+
+.pharmacybg{
+    background-color: var(--light-blue);
+
+}
+
+.pharmacybg .text{
+ 
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    padding: 50px 45px;
+
+}
+
+.pharmacybg .text .btn{
+background-color: transparent;
+color: var(--green);
+width: 300px;
+height: auto;
+border: 1px solid var(--navbar);
+}
+
+.pharmacybg .text h5{
+    color: var(--green);
+}
+
+.pharmacybg .text p{
+    color: var(--navbar);
+}
+
+
+.pharmacybg
+/* image */
+#pharmacy{
+    width: 700px;
+    height: auto;
+    padding: 50px;
+ 
+}
+
+.pharmacybg .container h2{
+    line-height: 1.7;
+    color: #273142;
+}
+ /* end pharmacy */
+
+ /* swiper */
+ .mySwiper{
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+ }
+ 
+ .mySwiper .btn-swip{
+    position: absolute;
+    top:30%;
+    right: 0%;
+    color: var(--navbar);
+    border: 3px solid var(--button);
+    border-radius: 50%;
+    padding: 0% 18px;
+    font-weight: bold;
+ }
+ .mySwiper .btn-swip::after{
+    font-size: 25px;
+ }

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaDirect</title>
+    <link rel="stylesheet" href="bootstrap@js/css/bootstrap.min.css">
+    <link rel="stylesheet" href="New folder (2)/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="./main/css/all.css">
+        <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="task3/task3/css/style3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);</style>
+</head>
+<body>
+    <!--Start logo div -->
+    <nav class="navbar navbar-expand-md  navbar-dark fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="image/0x0-removebg-preview (1).png" id="logo1">pharma-direct</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#logo">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="logo">
+            <ul class="navbar-nav me-auto ul">
+                <li class="navbar-item dropdown">
+                  <a href="#patientcollapse" class="nav-link dropdown-toggle text-light ms-3" data-bs-toggle="dropdown">الادوية</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">ادوية القلب</a></li>
+                      <li><a href="#" class="dropdown-item">ادوية السكر</a></li>
+                      <li><a href="#" class="dropdown-item">ادوية الضفط</a></li>
+                      <li><a href="#" class="dropdown-item">ادوية الزكام</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item dropdown">
+                  <a href="#patientcollapse" class="nav-link dropdown-toggle text-light ms-3" data-bs-toggle="dropdown">عنا</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">قصتنا</a></li>
+                      <li><a href="#" class="dropdown-item">Blog</a></li>
+                      <li><a href="#" class="dropdown-item">Press</a></li>
+                      <li><a href="#" class="dropdown-item">مراجعة المريض</a></li>
+                      <li><a href="#" class="dropdown-item">صيدلية عبر الانترنت</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle text-light ms-3" data-bs-toggle="dropdown">الصيدليات والشركات</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">العزبى</a></li>
+                      <li><a href="#" class="dropdown-item">عابدين</a></li>
+                      <li><a href="#" class="dropdown-item">اسلام فتحى</a></li>
+                      <li><a href="#" class="dropdown-item">الاسعاف</a></li>
+                      <li><a href="#" class="dropdown-item">مصر</a></li>
+                      <li><a href="#" class="dropdown-item">مبارك</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle text-light ms-3" data-bs-toggle="dropdown">الدعم</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">الاسئلةالشائعة</a></li>
+                      <li><a href="#" class="dropdown-item">(833) 466-3979</a></li>
+                      <li><a href="#" class="dropdown-item">support@PharmaDirect.com</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle text-light ms-3 tellus">استعلام عن دواء </a>
+                    <div class="info"></div>
+                </li>
+            </ul>
+            <div class="divider"></div>
+            <i style="color: white;" class="fa-solid fa-user me-3 pe-3"></i>
+            <i style="color: white;" class="fa-solid fa-cart-shopping me-3 pe-3"></i>
+        </div>
+    </div>
+    </nav>
+    <!--End logo div -->
+
+    <!-- Srart the alert -->
+        <div class="alert alert-dismissible fade show text-center text-light fs-5 " >
+            <p>خصم 20% على اى طلب ب  200 او اعلى</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+    <!-- end the alert -->
+
+    <!-- Start Carousel-->
+    <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="image/back.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="image/back1.jpg" class="d-block w-100 c-img" alt="...">
+        </div>
+        <div class="carousel-item c-item">
+          <img src="image/back3.jpg" class="d-block w-100 c-img" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End Carousel -->
+    
+<!-- Start SearchSection -->
+  <!-- start first part -->
+    <section class="searchsection w-100 position-absolute  mt-5 ">
+        <section class="container search shadow p-4  mb-5 bg-body rounded bg-light ">
+          <form action="proudpage.html">
+            <h5 class="me-5 pe-1 my-4">ابحث عن دوائك هنا</h5>
+            <div class="input-group sear w-75 me-5">
+              <div class="icon "><i id="search" class="fa-solid fa-magnifying-glass"></i></div>
+              <input type="search" class="form-control " placeholder="ابحث على الفور">
+           <!-- <input type="submit" value="ابحث عن دواء"> -->
+            <button style="background-color: #0a655c;" class="btn btn-dark text-light submit">ابحث عن الدواء</button>
+            </form>
+            </div>
+            <div class=" mt-3 ">
+              <h5 class="me-5 my-4">الابحاث الشائعة</h5>
+              <div class="input-group me-5 ">
+                <button class="btn me-1 rounded">ادوية الزكام</button>
+                <button class="btn me-2 rounded">المضادات الحيوية</button>
+                <button class="btn me-2 rounded">الانسولين</button>
+                <button class="btn me-2 rounded">ادويةالسكر</button>
+                <button class="btn me-2 rounded">ادوية القلب</button>
+              </div>
+            </div>
+      </section>
+  <!-- end first part -->
+  <!-- start secound part -->
+     <section class="sec">
+      <h3 class="text-center">كيف يساعدك موقعنا </h3>
+      <div class="container d-flex justify-content-evenly">
+        <div class="card col-md-3 border-0">
+          <img src="image/cailis.png" alt="" class="card-img h-50 mt-3">
+          <div class="card-body text-center">
+            <h4 class="card-title  ">جد دوائك</h4>
+            <p class="card-text">يمكنك الان البحث عن دوائك بكل سهولة </p>
+          </div>
+        </div>
+        <div class="card col-md-3 border-0 mt-5">
+          <img src="image/prescription.jpg" alt="" class="card-img mt-2">
+          <div class="card-body text-center">
+          <div class="d-flex align-items-center justify-content-center"><h4 class="card-title ">ارفع روشتتك </h4> <a href="#"><i style="margin-right: 10px; font-size: 20px;" class="fa-solid fa-upload"></i> </a></div>
+            <p class="card-text"> <input type="file" />يمكنك ايجاد دوائك عن طريق رفع صورة لروشتة</p>
+          </div>
+        </div>
+        <div class="card col-md-3 border-0 mt-2">
+          <img src="image/pillbottle.png" alt="" class="card-img">
+          <div class="card-body text-center">
+            <h4 class="card-title ">طلبك غير متوفر ؟</h4>
+            <p class="card-text ">سنرسل لك تذكيرًا عندما يتوفر طلبك على الفور</p>
+          </div>
+        </div>
+      </div>
+     </section>
+  <!-- end secound part -->
+    
+    <!-- End SearchSection -->
+
+    <!-- stArt second section (alaa's) -->
+    <section class="products">
+      <!-- start shop by medication -->
+      <div class="container text d-flex gap-5 mb-3">
+              <h5 >تسوق علي حسب الدواء</h5>
+              <a href="#">الجميع</a>
+      </div>
+      <div class="container my-4 imgs">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/brufen-600-mg-30-tabs-qycp-01670874549.webp" alt="Migraine & Headache"> </a>
+                      <p class="mt-2">بروفين | 600مجم | 30قرص  </p>
+                    
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/buscopan-10mg-20-tab-01721250594.webp" alt="Pain"></a>
+                      <p class="mt-2">بسكوبان اقراص مسكن للمغص وآلام البطن ومضاد للتقلصات | 10 مجم | 20 قرص   </p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/enterogermina-oral-suspension-4-billion-5-ml-oral-10-vials-f9yk-01709032797.webp" alt="Type 2 Diabetes"></a>
+                      <p class="mt-2">دواء انتروجرمينا بروبيوتيك لعلاج اضطراب الامعاء | امبولات   </p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/larypro-20-lozenges-tab-xiwj-01666599984.webp" alt="Acid Reflux"></a>
+                      <p class="mt-2">لاريبرو | 20 قرص استحلاب</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/novaldol-analgesic-and-pain-killer-1000-mg-15-tablets-01709223062.webp" alt="High Cholesterol"></a>
+                      <p class="mt-2">دوليبران | اقراص باراسيتامول مسكن للصداع والآلام (نوفالدول) | 1000 مجم | 15 قرص</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/telfast-30mg-5ml-susp-100ml--01709033984.webp" alt="High Blood Pressure"></a>
+                      <p class="mt-2">تلفاست شراب للاطفال لأعراض البرد والحساسية بطعم التوت | 100 مل</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      <!-- end shop by medication -->
+
+
+      <!-- start shop condition-->
+  <section class="products second">
+  <div class="">
+      <div class="container text d-flex gap-5 my-4">
+          <h5 class="text-capitalize">تسوق علي حسب الحالة</h5>
+          <a href="#">الجميع</a>
+       </div>
+       <div class="container imgs my-4">
+          <div class="swiper mySwiper">
+             <div class=" swiper-wrapper">
+                 
+                     
+                 
+                     <div class="product-card swiper-slide">
+                        <a href="file:///D:/Final/FinalProject/Depression/Depression.html#depression"> <img src="image/depression_small.webp" alt="Pain"></a>
+                         <p class="mt-2">الاكتئاب</p>
+                     </div>
+                 
+              
+                     <div class="product-card swiper-slide">
+                         <img src="image/hypothyroidism_small.webp" alt="Type 2 Diabetes">
+                         <p class="mt-2">قصور النمو</p>
+                     </div>
+                
+                
+                     <div class="product-card swiper-slide">
+                         <img src="image/hair-loss.webp" alt="High Cholesterol">
+                         <p class="mt-2">تساقط الشعر</p>
+                     </div>
+                 
+                
+                     <div class="product-card swiper-slide">
+                         <img src="image/migraine.webp"High Blood Pressure">
+                         <p class="mt-2">الصداع النصفي</p>
+                     </div>
+                
+                     <div class="product-card swiper-slide">
+                         <img src="image/blood-pressure.webp" alt="High Cholesterol">
+                         <p class="mt-2">ارتفاع ضغط الدم </p>
+                     </div>
+            
+                
+                     <div class="product-card swiper-slide">
+                         <img src="image/pain.webp" alt="High Blood Pressure">
+                         <p class="mt-2"> آلام المفاصل</p>
+                     </div>
+            
+                
+                     <div class="product-card swiper-slide">
+                         <img src="image/diabetes_small.webp" alt="High Cholesterol">
+                         <p class="mt-2">ارتفاع سكري الدم</p>
+                     </div>
+                 
+            
+                     <div class="product-card swiper-slide">
+                         <img src="image/acid_reflux_small.webp" alt="High Blood Pressure">
+                         <p class="mt-2">ارتجاع المرئ</p>
+                     </div>
+
+                     <div class="product-card swiper-slide">
+                         <img src="image/high_cholesterol_small.webp" alt="High Blood Pressure">
+                         <p class="mt-2"> ارتفاع كوليسترول الدم</p>
+                     </div>
+
+                     <div class="product-card swiper-slide">
+                      <img src="image/MAB_Condition_Page_Icon__mobile_.webp" alt="abortion">
+                      <p class="mt-2">حبوب الاجهاض</p>
+                  </div>
+                  
+                  <div class="product-card swiper-slide">
+                      <img src="image/ed_small.webp" alt="Acid Reflux">
+                      <p class="mt-2">الضعف الجنسي</p>
+                  </div>
+             </div>
+             <div class="swiper-button-next btn-swip"></div>
+             <div class="swiper-button-prev btn-swip"></div>
+         </div>
+          </div>
+      </div>
+  </div>
+  </section>
+      <!-- end shop by condition -->
+
+      <!-- start top medication -->
+  <section class="products third">
+      <div class="container text d-flex gap-5 my-4">
+          <h5 class="text-capitalize">الادوية الأكثر شراء</h5>
+          <a href="#">الجميع</a>
+      </div>
+      <div class="container my-4 imgs">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
+             
+          
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/enterogermina-oral-suspension-4-billion-5-ml-oral-10-vials-f9yk-01709032797.webp" alt="Type 2 Diabetes"></a>
+                      <p class="mt-2">دواء انتروجرمينا بروبيوتيك لعلاج اضطراب الامعاء | امبولات  </p>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+              </div>
+            
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/novaldol-analgesic-and-pain-killer-1000-mg-15-tablets-01709223062.webp" alt="High Cholesterol"></a>
+
+                      <p class="mt-2">دوليبران | اقراص باراسيتامول مسكن للصداع والآلام (نوفالدول) | 1000 مجم | 15 قرص</p>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="product-card">
+                    <a href="D:\coding\FinalProject\productpage\proudpage.html#product">
+                      <img src="image/telfast-30mg-5ml-susp-100ml--01709033984.webp" alt="High Blood Pressure"></a>
+                      <p class="mt-2">تلفاست شراب للاطفال لأعراض البرد والحساسية بطعم التوت | 100 مل</p>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"><i class="bi bi-star-half"></i></i><i class="bi bi-star"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      <!-- end top medication -->
+
+      <!-- start parteners -->
+       <div class="pharmacybg">
+          <div class="container">
+              <div class="row">
+              <img class="col pharmacyimg" id="pharmacy" src="image/pharmacist-14197671.webp" alt="pharmacy">
+              <div class="col text d-flex">
+                  <h5>من هي pharma direct؟</h5>
+                  <h2>مكانك الموثوق للعثور علي الأدوية المتوفرة في أقرب الفروع إليك</h2>
+                  <p>
+               نساعدك في البحث عن أي دواء تريده عن طريق خدمة توصيل متوافرة علي مدار الساعة. نحافظ علي خصوصية طلبك ونرسل الدواء إليك من أقرب فرع
+                  </p>
+                  <a class="btn btn-lg" href="#">المزيد من المعلومات</a>
+              </div>
+              </div>
+          </div>
+       </div>
+       <!-- end parteners -->
+
+       <!-- abd-elrahman-section -->    <!-- abd-elrahman-section -->
+
+      <!-- start section reviews -->
+      <section>
+        <div class="container">
+            <h3 class="text-center my-5">آراء عملائنا </h3>
+            <div class="row">
+                <div class="col-sm-4 py-3 px-2 fs-5">
+                    <div class="box1 text-center mb-4 py-2"><i class="pt-3 size-1" style="color: #245A75; "> ★★★★★</i>
+                        <p class="px-4 font-1">لا شكاوى حتى الآن. سعر رائع وشحن سريع على طول الطريق إلى الساحل الشرقي. من المؤكد أنه يتفوق على الوقوف في الطابور في الصيدلية المحلية.</p>
+                        <p>- <span  style="color: #969AA6; font-size: 15px;"> دينس ويلسن</span></p>
+                        <i class="fa-brands fa-twitter" style="color: #0DCAF0;" ></i></div>
+                    <div class="box2 text-center  mb-4 py-2"><i class=" pt-3 color-2 size-1"> ★★★★★</i>
+                        <p class="px-4 font-1">إنهم يتقاضون 15 جنيه فقط مقابل إمداد روسوفاستاتين لمدة 90 يومًا. كانت خطة الوصفة الطبية الخاصة بي تمنعني من التغطية على الرغم من رغبتي في تحصيل 60 جنيه مقابل نفس العرض لمدة 90 يومًا!</p>
+                        <p>- <span style="color: #969AA6; font-size: 15px;">بيتر</span> </p>
+                        <i class="fa-brands fa-facebook-f text-primary"></i></div>
+                </div>
+                <div class="col-sm-4 py-3 px-2">
+                    <div class="box3 text-center mb-3 py-3"><i class=" size-1 color-3" style="font-size: 30px;"> ★★★★★</i>
+                        <p class="px-4 font-1" >خدمة ممتازة، أسعار ممتازة. الناس لطيفون جدًا.</p>
+                        <p>- <span style="color: #969AA6; font-size: 15px;">رى</span></p>
+                        <i class="fa-brands fa-google text-danger"></i></div>
+                    <div class="box4 text-center pb-3"><p class="size-1 color-3 pt-3"> ★★★★★</p>
+                        <p class="font-1">أسعار رائعة، وسهلة الاستخدام من ناحيتي، ولست متأكدًا من عيادة الأطباء. لم يكن لديك مشكلة. أوصي!</p>
+                        <p>- <span style="color: #969AA6; font-size: 15px;"> جانى</span></p>
+                        <i class="fa-brands fa-google text-danger"></i></div>
+                </div>
+                <div class="col-sm-4 py-3 px-2">
+                    <div class="box1 text-center  mb-4 pb-2"><p class="size-1 color-2 pt-3"> ★★★★★</p>
+                        <p class="font-1">تجربة 10/10. تمكنت من الحصول على أدويتي بسرعة.
+                          شكرًا لك على صحة نحل العسل لإبقاء التكاليف منخفضة جدًا!</p>
+                        <p>- <span style="color: #969AA6; font-size: 15px;" > بيكا</span></p>
+                        <i class="fa-brands fa-facebook-f text-primary"></i></div>
+                    <div class="box2 text-center  mb-4"><p class="size-1 color-2 pt-3"> ★★★★★</p>
+                        <p class="font-1">أنا أحب فارما دايركت! أسعار منخفضة، شحن سريع وخدمة جيدة. شكرًا لك !</p>
+                        <p>- <span  style="color: #969AA6; font-size: 15px;"> جيسيكا</span></p>
+                        <i class="fa-brands fa-facebook-f text-primary pb-5"></i></div>
+                </div>
+            </div>
+            <a href="#" style="font-size: 18px;"  >تصفح جميع الاراء</a>
+
+        </div>
+     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- end section reviews -->
+     <!-- start news section -->
+      <section class="c1">
+        <div class="continer2">
+        <div class="text-center">
+<h2 class="mb-4" style="font-size: 33px;"> ما الهدف من موقعنا ؟</h2>
+<p style="font-size: 20px;">يمكنك توفير الكثير من الوقت والمال في البحث عن الدواء. نساهم في جعل الدواء أقرب إلي المرضى. الوقت هو العامل الأهم في انقاذ المريض.</p>
+</div>
+<div class="img mb-5 py-4">
+    <img src="images/fast-company-42bff90f.webp" alt="" class="a1">
+    <img src="images/business-insider-ec041c9c.webp" alt="" class="a1">
+    <img src="images/wsj-d4383971.webp" alt="" class="a1">
+    <img src="images/nbc-803e04ff.webp" alt="" class="a1">
+    <img src="images/healthline-196a9bc2.webp" alt="" class="a1">
+</div>
+<a href="#" class="mb-5" style="font-size: 18px;" >عرض المنتجات</a>
+</div>
+
+      </section>
+     <!-- end news section -->
+      <!-- Start Question Fraqutly -->
+      <section class="" id="Question">
+        <div class="container">
+            <div class="title">
+                <h1 style="font-family: playfair Display;">الأسئلة المتداولة</h1>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item" style="margin-top:25px;">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <span style="font-size: 20px;">كيف يعمل الموقع؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">فارما دايريكت هي صيدلية للطلب عبر البريد ومقرها في كاليفورنيا. ما عليك سوى البحث عن الأدوية التي تتناولها، وإضافتها إلى سلة التسوق الخاصة بك والخروج منها. سيحصل الصيادلة لدينا على الوصفة الطبية الخاصة بك من طبيبك أو الصيدلية ثم يملأون طلبك ويرسلونه إليك بالبريد. الأمر بهذه البساطة</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <span style="font-size: 20px;">هل تشحن إلى منطقتى؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">نحن مرخصون حاليًا بالشحن إلى الكثير من المناطق. يمكنك أن ترى أي منها<a style="display: inline;" href="#">هنا.</a></div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        <span style="font-size: 20px;">كيف يمكنني تتبع طلبي؟ </span>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">نحن نقدم تتبعًا خطوة بخطوة، من خلال لوحة تحكم حسابك. يمكنك معرفة المزيد  <a style="display: inline;" href="#">هنا.</a></div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingfour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+        <span style="font-size: 20px;">هل تستطيع شركة  فارما دايريكت الوصفات الطبية لحيواني الأليف؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">يمكننا ملء معظم الوصفات الطبية لحيواناتك الأليفة. يمكنك معرفة المزيد حول كيفية دعمنا لمرضى الحيوانات الأليفة <a href="#">هنا.</a></div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingfive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+        <span style="font-size: 20px;">هل تقبل شركة فارما دايريكت التامين؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">نحن لا نقبل التأمين، ولكن على الأرجح ستدفع مبلغًا أقل مقابل أدويتك باستخدام الصيدلية الخاصة بنا. بدلاً من دفع الرسوم للوسطاء مثل شركات التأمين ومديري الخطط، نبيع الأدوية العامة بسعر أقل، ونمرر المدخرات إليك.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingsix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+        <span style="font-size: 20px;">كيف هي الأسعار الخاصة بك منخفضة جدا؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">يمكننا أن نقدم معظم الأدوية بسعر أقل ببساطة لأن أسعارنا لا تمليها شركات التأمين. كما أننا نستخدم الأدوية العامة فقط كلما أمكن ذلك. وعلى عكس معظم شركات التأمين ومديري الخطط الذين يرفعون أسعار الأدوية الجنيسة، فإننا نؤمن بالتسعير العادل والشفاف.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingseven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
+            <span style="font-size: 20px;">أنا مهتم بالشراكة مع فارمادايركت بمن يجب أن أتصل؟</span>
+      </button>
+    </h2>
+    <div id="flush-collapseseven" class="accordion-collapse collapse" aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">نحن متحمسون لسماع منك. يرجى زيارة موقعنا صفحة الشراكات لمعرفة المزيد، والتواصل مع فريقنا.</div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-primary" style="width:260px; height:40px; margin-top:35px;">اطلع على جميع الأسئلة الشائعة</button>
+        </div>
+    </section>
+    
+      <!-- End Question Fraqutly -->
+
+      
+      <!--  Start Sec -->
+      <section>
+        <div class="contianer">
+            <div class="d-flex align-items-center justify-content-center mt-3 ">
+                <a class="p-4" href="https://www.tabibsohag.com/%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9-%D8%A5%D8%B3%D9%84%D8%A7%D9%85-%D9%81%D8%AA%D8%AD%D9%89/"><img src="image/download (1).png"></a>
+                <a class="p-4" href="https://abdinpharmacies.com/ar/store"><img src="image/elazby.png"></a>
+                <a class="p-4" href="https://19600.tel/"><img src="image/el.png"></a>
+            </div>
+        </div>
+    </section>
+      <!-- End sec  -->
+
+      <!-- Start Footer-->
+      <footer style="background-color:#f7fafd ;">
+        <div class="contianer">
+        <div class="d-flex align-items-center justify-content-evenly">
+            <div style="width: 25%;">
+                <a href="https://honeybeehealth.com/"><img src="image/WhatsApp Image 2024-08-13 at 9.36.09 PM.png" style="width: 200px;"></a>
+            </div>
+            <div style="width: 10%;">
+              <h4 style="margin-top: 40px; margin-right: 30px; margin-bottom: 20px;">خدمات</h4>
+              <ul >
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px" href="#">الاسئلة الشائعة</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">الاطباء</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">(833) 466-3979</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">support@PharmaDirect.com</li>
+              </ul>
+            </div>
+            <div style="width: 20%;">
+              <h4 style="margin-top: 5px;margin-left: 20px;">الشركاء</h4>
+              <ul >
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">نظرة عامة على الشريك</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">وثائق واجهة برمجة التطبيقات</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">تسجيل دخول الشريك</li>
+              </ul>
+            </div>
+            <div style="width: 15%;">
+              <h4 style="margin-top: 40px;">الشركة</h4>
+              <ul >
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">عنا</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">اضغط</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">مراجعة</li>
+                <li style="list-style:none;"><a style="text-decoration: none; color:black;  margin-bottom: 6px;" href="#">صيدلية على الانترنت</li>
+              </ul>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-end" style="margin-left: 130px;" >
+          <a style="color: #273142;font-size:20px; margin-left:10px;" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a style="color: #273142;font-size:20px; margin-left:10px;" href="https://www.linkedin.com/login/ar"><i class="fa-brands fa-linkedin"></i></a>
+          <a style="color: #273142;font-size:20px; margin-left:10px;" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a style="color: #273142;font-size:20px; margin-left:10px;" href="https://x.com/?lang=ar"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: start;">
+            <p style="margin-right: 100px; font-size: 12px; margin-top: 20px; ">حقوق الطبع والنشر محفوظة لدى فارما دايركت</p>
+          </div>
+      </div>
+    </footer>
+    
+      <!-- End Footer-->
+
+  <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+      var swiper = new Swiper(".swiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        slidesPerView: 6,
+        spaceBetween:30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      //   loop:true,
+      //   autoplay: {
+      //     delay:2500,
+      //   }
+      });
+    </script>
+<!-- <script src="index.js"></script> -->
+    <script src="bootstrap@js/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
